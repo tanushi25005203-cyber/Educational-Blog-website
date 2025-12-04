@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechTrek - Educational Tech Blog</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+    body{background:#f4f7fc;color:#333;}
+    header{background:linear-gradient(90deg,#0072ff,#00c6ff);color:white;text-align:center;padding:20px;}
+    header h1{font-size:2em;}
+    nav a{color:white;margin:0 10px;text-decoration:none;font-weight:600;}
+    nav a:hover{text-decoration:underline;}
+    .intro{background:linear-gradient(135deg,#a8edea,#fed6e3);padding:60px 20px;text-align:center;}
+    .intro h2{font-size:2.2em;margin-bottom:10px;}
+    .intro p{font-size:1.1em;max-width:600px;margin:auto;}
+    .blogs{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;padding:40px;}
+    .card{background:white;border-radius:15px;box-shadow:0 4px 10px rgba(0,0,0,0.1);padding:20px;transition:.3s;}
+    .card:hover{transform:translateY(-5px);}
+    .card h3{color:#0072ff;margin-bottom:10px;}
+    .card p{color:#555;line-height:1.6;}
+    .card button{background:linear-gradient(90deg,#00c6ff,#0072ff);border:none;color:white;padding:8px 20px;
+                 border-radius:20px;cursor:pointer;margin-top:10px;}
+    .card button:hover{opacity:0.9;}
+    footer{background:#0072ff;color:white;text-align:center;padding:15px;}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TechTrek</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Articles</a>
+      <a href="#">Tutorials</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h2>Exploring the Future of Technology</h2>
+    <p>Welcome to TechTrek — your space to learn, explore, and stay updated with the latest trends in technology and innovation.</p>
+  </section>
+
+  <section class="blogs">
+    <div class="card">
+      <h3>AI in Education</h3>
+      <p>Discover how artificial intelligence is transforming learning experiences, personalizing lessons, and improving accessibility for students worldwide.</p>
+      <button>Read More</button>
+    </div>
+    <div class="card">
+      <h3>Cloud Computing Simplified</h3>
+      <p>Learn how cloud technology makes storing, accessing, and managing data easier than ever — even for small organizations and learners.</p>
+      <button>Read More</button>
+    </div>
+    <div class="card">
+      <h3>Future of Coding</h3>
+      <p>Is coding still the skill of the future? Explore how AI-assisted development and low-code platforms are changing the tech landscape.</p>
+      <button>Read More</button>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 TechTrek | Empowering Minds Through Technology
+  </footer>
+
+</body>
+</html>
